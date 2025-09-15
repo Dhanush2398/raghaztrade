@@ -1,9 +1,4 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Sellsmart - Single Product Landing page HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
+
 /* INDEX
 ----------------------------------------------------------------------------------------
 01. Global Variables
@@ -508,6 +503,7 @@ header.main-header .header-sticky.active{
 .navbar{
 	padding: 30px 0;
 	align-items: center;
+	background-color: #fff;
 }
 
 .navbar-brand{
@@ -536,7 +532,7 @@ header.main-header .header-sticky.active{
 	font-weight: 600;
 	line-height: 1.1em;
 	padding: 15px 10px !important;
-	color: var(--white-color);
+	color: #206746;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
 }
@@ -5137,4 +5133,8 @@ header.main-header .header-sticky.active{
 	.google-map-iframe iframe{
         height: 350px;
     }
+}
+
+.navbar-brand img{
+	height: 70px;
 }
