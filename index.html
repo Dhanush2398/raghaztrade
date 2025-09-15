@@ -49,27 +49,23 @@
 		</div>
 	</div>
 	<!-- Preloader End -->
-
-    <!-- Header Start -->
+<!-- Header Start -->
 <header class="main-header">
     <div class="header-sticky">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <!-- Logo Start -->
+               
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logo.png" alt="Logo">
                 </a>
-                <!-- Logo End -->
-
-                <!-- Toggle Button (for mobile) -->
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- Main Menu Start -->
                 <div class="collapse navbar-collapse main-menu" id="navbarMenu">
                     <div class="nav-menu-wrapper">
-                        <ul class="navbar-nav ms-auto" id="menu">
+                        <ul class="navbar-nav" id="menu">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
@@ -77,13 +73,16 @@
                         </ul>
                     </div>
 
-                    <!-- Buttons inside toggle -->
-                    <div class="header-contact-btn mt-3 ">
-                        <a href="#" class="btn-default">Register</a>
-                        <a href="#" class="btn-default">Login</a>
+                    <div class="header-contact-btn mt-3 d-lg-none">
+                        <a href="#" class="btn-default d-block mb-2">Register</a>
+                        <a href="#" class="btn-default d-block">Login</a>
                     </div>
                 </div>
-                <!-- Main Menu End -->
+                
+                <div class="header-contact-btn d-none d-lg-block">
+                    <a href="#" class="btn-default">Register</a>
+                    <a href="#" class="btn-default">Login</a>
+                </div>
             </div>
         </nav>
     </div>

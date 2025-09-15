@@ -514,7 +514,7 @@ header.main-header .header-sticky.active{
 .main-menu .nav-menu-wrapper{
 	flex: 1;
 	text-align: center;
-	margin: 0 20px;
+	
 }
 
 .main-menu .nav-menu-wrapper > ul{
@@ -730,6 +730,42 @@ header.main-header .header-sticky.active{
 .slicknav_open > a .slicknav_arrow:after{
     transform: translateY(-50%) rotate(-180deg);
 	color: var(--primary-color);
+}
+@media (max-width: 991px) {
+  .main-menu .nav-menu-wrapper {
+    text-align: left !important;
+    width: 100%;
+  }
+
+  .main-menu .nav-menu-wrapper ul {
+    display: block !important;
+    padding-left: 0;
+  }
+
+  .main-menu .nav-menu-wrapper ul li {
+    display: block;
+    text-align: left !important;
+    margin: 0;
+  }
+
+  .main-menu .nav-menu-wrapper ul li a {
+    display: block;
+    text-align: left !important;
+    padding: 12px 0;
+    width: 100%;
+  }
+
+ 
+  .header-contact-btn {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 15px;
+    padding-top: 15px;
+  }
+
+  .header-contact-btn .btn-default {
+    width:50%;
+    margin-bottom: 10px;
+  }
 }
 
 /************************************/
