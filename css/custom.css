@@ -2644,7 +2644,8 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	background-color: var(--primary-color);
-	padding: 265px 0 150px;
+	padding: 175px 0 150px;
+	height: 200px;
 }
 
 .page-header-box{
